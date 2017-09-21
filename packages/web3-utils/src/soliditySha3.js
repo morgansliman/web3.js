@@ -128,7 +128,10 @@ var _solidityPack = function (type, value, arraySize) {
             throw new Error('Invalid bytes' + size +' for '+ value);
         }
 
-        return utils.rightPad(value, size * 2);
+        if (!/^0x/i.test(value) && typeof parseInt(value) === 'number') {
+            return utils.rightPad(utils.utf8ToHex(value), size * 2);
+        }
+        return utils.rightPad(utils.toHex(value), size * 2);
     } else if (type.startsWith('uint')) {
 
         if ((size % 8) || (size < 8) || (size > 256)) {
