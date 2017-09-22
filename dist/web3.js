@@ -57325,7 +57325,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
       module.exports = {
         "name": "web3",
         "namespace": "ethereum",
-        "version": "1.0.0-beta.21",
+        "version": "1.0.0",
         "description": "Ethereum JavaScript API",
         "repository": "https://github.com/ethereum/web3.js/tree/master/packages/web3",
         "license": "LGPL-3.0",
@@ -57356,13 +57356,13 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
           "url": "https://github.com/obscuren"
         }],
         "dependencies": {
-          "web3-bzz": "^1.0.0-beta.21",
-          "web3-core": "^1.0.0-beta.21",
-          "web3-eth": "^1.0.0-beta.21",
-          "web3-eth-personal": "^1.0.0-beta.21",
-          "web3-net": "^1.0.0-beta.21",
-          "web3-shh": "^1.0.0-beta.21",
-          "web3-utils": "^1.0.0-beta.21"
+          "web3-bzz": "^1.0.0",
+          "web3-core": "^1.0.0",
+          "web3-eth": "^1.0.0",
+          "web3-eth-personal": "^1.0.0",
+          "web3-net": "^1.0.0",
+          "web3-shh": "^1.0.0",
+          "web3-utils": "^1.0.0"
         }
       };
     }, {}], "BN": [function (require, module, exports) {
